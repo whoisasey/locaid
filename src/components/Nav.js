@@ -1,11 +1,12 @@
 import React from 'react'
+import { NavLink,  } from 'react-router-dom';
 
 const Nav = () => {
 	return (
-		<div className="ui menu">
 
+		<NavLink to="/locaid" className="ui menu">
 			{/* <h4>Home</h4> */}
-		</div>
+		</NavLink>
 	)
 }
 

@@ -1,14 +1,8 @@
-import React, { useState, useEffect, Fragment } from 'react'
+import React, { Fragment } from 'react'
 import { NavLink } from 'react-router-dom';
-import DB from '../../data.json'
 import SingleCard from './SingleCard'
 
-const AllPages = () => {
-	const [data, getData] = useState([]);
-
-	useEffect(() => {
-		getData(DB);
-	}, []);
+const AllPages = ({data}) => {
 
 	const allMapped = data.map(card => {
 		console.log(card)

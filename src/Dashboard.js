@@ -21,9 +21,11 @@ const Dashboard = () => {
 	]
 	return (
 		<Fragment>
-			<h1>Donate with impact.</h1>
-			<p>Donate your clothes to charities you trust.</p>
-			<NavLink to="/locaid/all" className="ui button">Find a Trusted Charity</NavLink>
+			<div className="header">
+				<h1>Donate with impact.</h1>
+				<p>Donate your clothes to charities you trust.</p>
+				<NavLink to="/locaid/all" className="ui button">Find a Trusted Charity</NavLink>
+			</div>
 			<Icon icon={chevronThinDown} />
 			<h3>Does 100% of your donation go to charity?</h3>
 			<div className="ui four statistics">
@@ -37,10 +39,12 @@ const Dashboard = () => {
 				)
 			})}
 			</div>
-			<p>The biggest concern with charities is transparency.
-			Learn how we’re are making sure your 
-100% of donation goes to those in need.</p>
-			<button className="ui button">Learn More</button>
+			<div className="section">
+				<p>The biggest concern with charities is transparency.
+				Learn how we’re are making sure your 
+				100% of donation goes to those in need.</p>
+				<button className="ui button">Learn More</button>
+			</div>
 		</Fragment>
 	)
 }

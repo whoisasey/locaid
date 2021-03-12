@@ -1,7 +1,8 @@
 body {
   font-family: $base-font-family;
-  text-align: center;
+  // text-align: center;
   font-size: $base-font-size;
+  $vertical-rhythm: $base-line-height * $base-font-size;
 }
 
 h1,
@@ -9,6 +10,7 @@ h2,
 h3,
 h4 {
   font-family: $base-font-family;
+  $vertical-rhythm: $base-line-height * $base-font-size;
 }
 h1 {
   font-size: $base-font-size * 5;
@@ -22,13 +24,18 @@ h3 {
   font-size: $base-font-size * 3;
 }
 
+h4 {
+  font-size: $base-font-size * 2;
+}
+
 svg {
   font-size: $base-font-size * 3;
   color: lightgray;
   display: flex;
   margin: 2rem auto;
 }
-.ui.four.statistics .statistic {
-  padding: 1rem;
-  margin: 1rem auto;
+
+.header,
+.section {
+  @include flexCenter();
 }
