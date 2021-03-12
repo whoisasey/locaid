@@ -13,3 +13,22 @@ h4 {
 h1 {
   font-size: $base-font-size * 5;
 }
+
+h2 {
+  font-size: $base-font-size * 4;
+}
+
+h3 {
+  font-size: $base-font-size * 3;
+}
+
+.iconify {
+  font-size: $base-font-size * 3;
+  color: lightgray;
+  display: flex;
+  margin: 2rem auto;
+}
+.ui.four.statistics .statistic {
+  padding: 1rem;
+  margin: 1rem auto;
+}
