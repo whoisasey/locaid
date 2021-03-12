@@ -9,7 +9,7 @@ const App = ()=> {
       <Nav />
       <Router>
         <Switch>
-          <Route exact path="/locaid/home" component={Dashboard} />
+          <Route exact path="/locaid/" component={Dashboard} />
           <Route path="/locaid/all" component={AllPages} />
         </Switch>
       </Router>
