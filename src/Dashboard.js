@@ -1,5 +1,8 @@
 import React,{Fragment} from 'react'
-import {NavLink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import { Icon } from '@iconify/react';
+import chevronThinDown from '@iconify-icons/entypo/chevron-thin-down';
+
 
 const Dashboard = () => {
 	const stats = [
@@ -21,7 +24,7 @@ const Dashboard = () => {
 			<h1>Donate with impact.</h1>
 			<p>Donate your clothes to charities you trust.</p>
 			<NavLink to="/locaid/all" className="ui button">Find a Trusted Charity</NavLink>
-			<span className="iconify" data-icon="entypo-chevron-thin-down" data-inline="false"></span>
+			<Icon icon={chevronThinDown} />
 			<h3>Does 100% of your donation go to charity?</h3>
 			<div className="ui four statistics">
 

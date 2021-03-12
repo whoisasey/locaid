@@ -1,5 +1,7 @@
 import React, { useState, useEffect, Fragment } from 'react'
+import { NavLink } from 'react-router-dom';
 import DB from '../../data.json'
+import SingleCard from './SingleCard'
 
 const AllPages = () => {
 	const [data, getData] = useState([]);
@@ -8,12 +10,23 @@ const AllPages = () => {
 		getData(DB);
 	}, []);
 
+	const allMapped = data.map(card => {
+		console.log(card)
+		return (
+			<NavLink to={`/page/${card.slug}`} key={card._id.$oid}>
+				<SingleCard card={card}/>
+			</NavLink>
+		)
+	})
 
 		
-		console.log(data);
 		return (
 			<Fragment>
-				<h2>all pages</h2>
+				{/* title */}
+				<div className="ui cards">
+
+				{allMapped}
+				</div>
 			</Fragment>
 		);
 	}

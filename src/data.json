@@ -28,7 +28,8 @@
   "vision": "Our vision is to enhance lifelong positive outcomes for pregnant young women and young parents.",
   "services": "Counselling, Parenting Groups, Health Services, Education, Housing Support, Respite Care, Meal Programs, Youth Social Services",
   "items_accepted_precovid": "New or gently used clothing ",
-  "item_accepted_currently": "not accepting"
+  "item_accepted_currently": "not accepting",
+  "slug": "jessies"
 },{
   "_id": {
     "$oid": "6049223eeae52c9ee5e5115a"
@@ -59,5 +60,6 @@
   "vision": "Our vision is to enhance lifelong positive outcomes for pregnant young women and young parents.",
   "services": "Counselling, Parenting Groups, Health Services, Education, Housing Support, Respite Care, Meal Programs, Youth Social Services",
   "items_accepted_precovid": "New or gently used clothing ",
-  "item_accepted_currently": "not accepting"
+  "item_accepted_currently": "not accepting",
+  "slug": "jessies-2"
 }]
