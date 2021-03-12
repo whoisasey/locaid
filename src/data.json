@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "604555509e260dc3b56e37e6"
+  },
+  "name": "Jessie's - The June Callwood Centre for Young Women",
+  "address": "205 Parliament St, Toronto, ON M5A 2Z4",
+  "website": "https://jessiescentre.org/",
+  "phone": "416-365-1888",
+  "logo": "https://jessiescentre.org/wp-content/uploads/2019/02/Jessies_Logo_2016y_Screen.png",
+  "charity_no": "118973734RR0001",
+  "expenses": {
+    "charitable_programs": 1041974,
+    "management_admin": 383847,
+    "fundraising": 52914,
+    "gifts": 0,
+    "other": 0
+  },
+  "values": "Pro-Choice, Accessible Services, Individual Choice, Non-discrimination, Social Change,Respect for the dignity and independence of people with disabilities",
+  "summary": " jessie's, the june callwood centre for young women is a multi-service resource centre for pregnant teenagers, young parents and their children.",
+  "mission": "Our mission is to nurture the healthy development of pregnant teenagers, young parents and their children.",
+  "revenue": {
+    "receipted_donations": 311609,
+    "non_receipted_donations": 74375,
+    "other_charity_gifts": 460254,
+    "gov_funding": 619834,
+    "other": 18442
+  },
+  "vision": "Our vision is to enhance lifelong positive outcomes for pregnant young women and young parents.",
+  "services": "Counselling, Parenting Groups, Health Services, Education, Housing Support, Respite Care, Meal Programs, Youth Social Services",
+  "items_accepted_precovid": "New or gently used clothing ",
+  "item_accepted_currently": "not accepting"
+},{
+  "_id": {
+    "$oid": "6049223eeae52c9ee5e5115a"
+  },
+  "name": "Jessie's - The June Callwood Centre for Young Women",
+  "address": "205 Parliament St, Toronto, ON M5A 2Z4",
+  "website": "https://jessiescentre.org/",
+  "phone": "416-365-1888",
+  "logo": "https://jessiescentre.org/wp-content/uploads/2019/02/Jessies_Logo_2016y_Screen.png",
+  "charity_no": "118973734RR0001",
+  "expenses": {
+    "charitable_programs": 1041974,
+    "management_admin": 383847,
+    "fundraising": 52914,
+    "gifts": 0,
+    "other": 0
+  },
+  "values": "Pro-Choice, Accessible Services, Individual Choice, Non-discrimination, Social Change,Respect for the dignity and independence of people with disabilities",
+  "summary": " jessie's, the june callwood centre for young women is a multi-service resource centre for pregnant teenagers, young parents and their children.",
+  "mission": "Our mission is to nurture the healthy development of pregnant teenagers, young parents and their children.",
+  "revenue": {
+    "receipted_donations": 311609,
+    "non_receipted_donations": 74375,
+    "other_charity_gifts": 460254,
+    "gov_funding": 619834,
+    "other": 18442
+  },
+  "vision": "Our vision is to enhance lifelong positive outcomes for pregnant young women and young parents.",
+  "services": "Counselling, Parenting Groups, Health Services, Education, Housing Support, Respite Care, Meal Programs, Youth Social Services",
+  "items_accepted_precovid": "New or gently used clothing ",
+  "item_accepted_currently": "not accepting"
+}]

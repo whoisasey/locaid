@@ -1,0 +1,14 @@
+body {
+  font-family: $base-font-family;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $base-font-family;
+}
+h1 {
+  font-size: $base-font-size * 5;
+}
