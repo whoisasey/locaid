@@ -1,0 +1,2 @@
+(this.webpackJsonplocaid_static=this.webpackJsonplocaid_static||[]).push([[0],{10:function(t,c,e){"use strict";e.r(c);e(1);var n=e(3),i=e.n(n),s=(e(8),e(0)),o=function(){return Object(s.jsx)("div",{className:"ui container",children:Object(s.jsx)("h1",{children:"hello"})})};i.a.render(Object(s.jsx)(o,{}),document.getElementById("root"))},8:function(t,c,e){}},[[10,1,2]]]);
+//# sourceMappingURL=main.d8f3859f.chunk.js.map
